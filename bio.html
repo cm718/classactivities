@@ -3,6 +3,59 @@
 
 <head>
   <title>Student Bio</title>
+
+  <style>
+
+    h1 {
+      text-align: center;
+      font-size: 60px;
+      background-color: black;
+      color: white;
+      margin-bottom: 15px;
+      margin-top: 0;
+    }
+
+    img {
+      display: block;
+    }
+
+    .section1 {
+      float: left;
+      width: 50%;
+      background-color: red;
+    }
+
+    .div1 {
+      float: left;
+    }
+
+    .section2 {
+      float: right;
+      width: 50%;
+      background-color: yellow;
+    }
+
+    .div2 {
+      float: left;
+      width: 50%;
+    }
+
+    p {
+      float: right;
+      margin-top: 0;
+      margin-left: 15px;
+    }
+
+    .main {
+      /* margin: 30px; */
+      /* background-image: linear-gradient(to right, red , yellow); */
+      background-color: red;
+      height: 100%;
+      width: 100%;
+
+    }
+  </style>
+
 </head>
 
 <body>
@@ -11,24 +64,25 @@
     <h1>Student Bio</h1>
   </header>
 
-  <div>
-    <section>
+  <div class="main">
+    <section class="section1">
       <h2>Chris McLaughlin</h2>
 
-      <img src="/Users/chrismclaughlin/Desktop/resources/CM_small.jpg" alt="Chris McLaughlin" style="width:200px;height:200px;">
+      <div class="div1">
 
-      <p>Bacon ipsum dolor amet bresaola pork chop cow ham fatback buffalo beef ball tip salami strip steak alcatra tongue. Doner frankfurter sausage turducken buffalo burgdoggen. Picanha hamburger t-bone tri-tip kielbasa. Landjaeger ribeye
-        tenderloin
-        jerky pork swine hamburger cupim short ribs pancetta doner ham flank ball tip. Shankle buffalo fatback cow jerky turkey.</p>
 
-      <p>Landjaeger frankfurter leberkas tongue cow ham turkey, chicken ball tip ribeye beef filet mignon. Venison ground round strip steak chicken, alcatra tri-tip short loin. Beef pancetta leberkas, frankfurter prosciutto meatloaf flank. Pig
-        sausage
-        kielbasa meatloaf beef ribs picanha swine shankle pancetta t-bone jerky bresaola ground round. Tri-tip spare ribs pork belly cupim fatback kevin pork porchetta swine drumstick corned beef frankfurter rump short loin bacon. Fatback doner
-        filet
-        mignon, ribeye pastrami jerky bacon chuck leberkas beef ribs rump jowl spare ribs turducken sausage.</p>
+        <img src="/Users/chrismclaughlin/Desktop/resources/CM_small.jpg" alt="Chris McLaughlin" style="width:200px;height:200px;">
+
+      </div>
+
+
+      <div class="div2">
+        <p>Bacon ipsum dolor amet bresaola pork chop cow ham fatback buffalo beef ball tip salami strip steak alcatra tongue. Picanha hamburger t-bone tri-tip kielbasa. Landjaeger ribeye.</p>
+      </div>
+
     </section>
 
-    <section>
+    <section class="section2">
       <h2>Contact Info</h2>
 
       <ul>
